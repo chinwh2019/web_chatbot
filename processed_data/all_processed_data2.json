@@ -1,0 +1,492 @@
+[
+  {
+    "title": "各種手数料 | 請求金額の確認 | お客様サポート | 楽天モバイル",
+    "content": "楽天モバイルのご利用で発生する各種手数料をご確認いただけます。 ※各種手数料は、楽天ポイントの付与対象外となります。",
+    "links": [
+      {
+        "text": "法人のお客様",
+        "url": "https://business.mobile.rakuten.co.jp/?scid=wi_rmb_pers_header"
+      },
+      {
+        "text": "Price Plan in English",
+        "url": "https://network.mobile.rakuten.co.jp/fee/saikyo-plan/en/?l-id=gnavi_fee_saikyo-plan-en"
+      },
+      {
+        "text": "Rakuten Mobile",
+        "url": "https://network.mobile.rakuten.co.jp/?l-id=gnavi_logo"
+      },
+      {
+        "text": "おかげさまで800万回線",
+        "url": "https://network.mobile.rakuten.co.jp/feature/why-rakuten-mobile/?l-id=gnavi_500-banner_why-rakuten-mobile"
+      },
+      {
+        "text": "Rakuten最強プラン",
+        "url": "https://network.mobile.rakuten.co.jp/fee/saikyo-plan/?l-id=gnavi_fee_saikyo-plan"
+      },
+      {
+        "text": "データタイプ",
+        "url": "https://network.mobile.rakuten.co.jp/fee/saikyo-plan/data-type/?l-id=gnavi_fee_saikyo-plan_data-type"
+      },
+      {
+        "text": "最強家族プログラム家族でトクしたい方に",
+        "url": "https://network.mobile.rakuten.co.jp/fee/family/?l-id=gnavi_fee_family"
+      },
+      {
+        "text": "最強シニアプログラム65歳以上から ずーっと安心&おトク",
+        "url": "https://network.mobile.rakuten.co.jp/fee/senior/?l-id=gnavi_fee_senior"
+      },
+      {
+        "text": "最強青春プログラム22歳までずーっとおトク",
+        "url": "https://network.mobile.rakuten.co.jp/fee/youth/?l-id=gnavi_fee_youth"
+      },
+      {
+        "text": "最強こどもプログラム12歳までとーってもおトク",
+        "url": "https://network.mobile.rakuten.co.jp/fee/kids/?l-id=gnavi_fee_kids"
+      },
+      {
+        "text": "料金シミュレーション",
+        "url": "https://network.mobile.rakuten.co.jp/fee/simulation/?l-id=gnavi_fee_un-limit_simulation"
+      },
+      {
+        "text": "製品",
+        "url": "https://network.mobile.rakuten.co.jp/product/?l-id=gnavi_product"
+      },
+      {
+        "text": "iPhone",
+        "url": "https://network.mobile.rakuten.co.jp/product/iphone/?l-id=gnavi_product_iphone"
+      },
+      {
+        "text": "Apple Watch",
+        "url": "https://network.mobile.rakuten.co.jp/product/apple-watch/?l-id=gnavi_product_apple-watch"
+      },
+      {
+        "text": "Android/Rakutenオリジナル",
+        "url": "https://network.mobile.rakuten.co.jp/product/smartphone/?l-id=gnavi_product_smartphone"
+      },
+      {
+        "text": "Wi-Fiルーター",
+        "url": "https://network.mobile.rakuten.co.jp/product/internet/?l-id=gnavi_product_internet"
+      },
+      {
+        "text": "アクセサリ",
+        "url": "https://network.mobile.rakuten.co.jp/product/accessory/?l-id=gnavi_product_accessory"
+      },
+      {
+        "text": "オプションサービス",
+        "url": "https://network.mobile.rakuten.co.jp/service/?l-id=gnavi_service"
+      },
+      {
+        "text": "SIM",
+        "url": "https://network.mobile.rakuten.co.jp/product/sim/?l-id=gnavi_product_sim"
+      },
+      {
+        "text": "eSIM",
+        "url": "https://network.mobile.rakuten.co.jp/product/sim/esim/?l-id=gnavi_product_sim_esim"
+      },
+      {
+        "text": "デュアルSIM",
+        "url": "https://network.mobile.rakuten.co.jp/product/sim/dual-sim/?l-id=gnavi_product_sim_dual-sim"
+      },
+      {
+        "text": "ご利用製品の対応確認",
+        "url": "https://network.mobile.rakuten.co.jp/product/byod/?l-id=gnavi_product_byod"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/?l-id=gnavi_internet_turbo"
+      },
+      {
+        "text": "料金プラン",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/fee/?l-id=gnavi_internet_turbo_fee"
+      },
+      {
+        "text": "製品",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/product/?l-id=gnavi_internet_turbo_product"
+      },
+      {
+        "text": "楽天ひかり",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/?l-id=gnavi_hikari"
+      },
+      {
+        "text": "料金プラン",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/fee/pricelist/?l-id=gnavi_hikari_fee"
+      },
+      {
+        "text": "インターネット診断",
+        "url": "https://network.mobile.rakuten.co.jp/internet/?l-id=gnavi_internet#diagnose"
+      },
+      {
+        "text": "スマホ+Rakuten Turbo20,000ポイント還元",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/campaign/six-month-free/?l-id=gnavi_internet_turbo_campaign_set"
+      },
+      {
+        "text": "スマホ+楽天ひかり初めて申し込みなら、ひかりの月額基本料6カ月0円",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/campaign/six-month-free/?l-id=gnavi_hikari_campaign_six-month-free_set"
+      },
+      {
+        "text": "スマートフォン",
+        "url": "https://network.mobile.rakuten.co.jp/area/?l-id=gnavi_area"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/area/?l-id=gnavi_internet_turbo_area"
+      },
+      {
+        "text": "ショップ（店舗）",
+        "url": "https://network.mobile.rakuten.co.jp/shop/?l-id=gnavi_shop"
+      },
+      {
+        "text": "スマートフォン",
+        "url": "https://network.mobile.rakuten.co.jp/campaign/?l-id=gnavi_campaign"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/campaign/six-month-free/?l-id=gnavi_internet_turbo_campaign"
+      },
+      {
+        "text": "楽天ひかり",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/campaign/six-month-free/?l-id=gnavi_hikari_campaign_six-month-free"
+      },
+      {
+        "text": "お知らせ",
+        "url": "https://network.mobile.rakuten.co.jp/information/?l-id=gnavi_info"
+      },
+      {
+        "text": "スーパーホーダイ／組み合わせプランを ご利用中の方",
+        "url": "https://mobile.rakuten.co.jp/mvno/?l-id=gnavi_mvno"
+      },
+      {
+        "text": "お申し込みガイド",
+        "url": "https://network.mobile.rakuten.co.jp/guide/procedure/?l-id=gnavi_guide_procedure"
+      },
+      {
+        "text": "なぜ今楽天モバイルなのか",
+        "url": "https://network.mobile.rakuten.co.jp/feature/why-rakuten-mobile/?l-id=gnavi_feature_why-rakuten-mobile"
+      },
+      {
+        "text": "お客様の声",
+        "url": "https://network.mobile.rakuten.co.jp/uservoice/?l-id=gnavi_uservoice"
+      },
+      {
+        "text": "楽天モバイル",
+        "url": "https://network.mobile.rakuten.co.jp/support/?l-id=gnavi_support"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/support/?l-id=gnavi_internet_turbo_support"
+      },
+      {
+        "text": "楽天ひかり",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/support/?l-id=gnavi_hikari_support"
+      },
+      {
+        "text": "my 楽天モバイル",
+        "url": "https://portal.mobile.rakuten.co.jp/my-rakuten-mobile?l-id=network_gnavi_ecare"
+      },
+      {
+        "text": "お申し込み",
+        "url": "https://network.mobile.rakuten.co.jp/guide/application/?ref=header&lid-r;=gnavi_onboarding"
+      },
+      {
+        "text": "お申し込み",
+        "url": "https://network.mobile.rakuten.co.jp/guide/application/?ref=header&lid-r;=burger_onboarding"
+      },
+      {
+        "text": "my 楽天モバイル",
+        "url": "https://portal.mobile.rakuten.co.jp/my-rakuten-mobile?l-id=network_burger_ecare"
+      },
+      {
+        "text": "ショップ（店舗）",
+        "url": "https://network.mobile.rakuten.co.jp/shop/?l-id=burger_shop"
+      },
+      {
+        "text": "お知らせ",
+        "url": "https://network.mobile.rakuten.co.jp/information/?l-id=burger_info"
+      },
+      {
+        "text": "スーパーホーダイ／組み合わせプランをご利用中の方",
+        "url": "https://mobile.rakuten.co.jp/mvno/?l-id=burger_mvno"
+      },
+      {
+        "text": "Price Plan in English",
+        "url": "https://network.mobile.rakuten.co.jp/fee/saikyo-plan/en/?l-id=burger_fee_saikyo-plan-en"
+      },
+      {
+        "text": "法人のお客様",
+        "url": "https://business.mobile.rakuten.co.jp/?scid=wi_rmb_pers_burger"
+      },
+      {
+        "text": "料金シミュレーション",
+        "url": "https://network.mobile.rakuten.co.jp/fee/simulation/?l-id=burger_fee_un-limit_simulation"
+      },
+      {
+        "text": "オプションサービス",
+        "url": "https://network.mobile.rakuten.co.jp/service/?l-id=burger_service"
+      },
+      {
+        "text": "最強家族プログラム",
+        "url": "https://network.mobile.rakuten.co.jp/fee/family/?l-id=burger_banner_fee-family"
+      },
+      {
+        "text": "最強シニアプログラム",
+        "url": "https://network.mobile.rakuten.co.jp/fee/senior/?l-id=burger_banner_fee_senior"
+      },
+      {
+        "text": "最強青春プログラム",
+        "url": "https://network.mobile.rakuten.co.jp/fee/youth/?l-id=burger_banner_fee-youth"
+      },
+      {
+        "text": "最強こどもプログラム",
+        "url": "https://network.mobile.rakuten.co.jp/fee/kids/?l-id=burger_banner_fee-kids"
+      },
+      {
+        "text": "インターネット診断",
+        "url": "https://network.mobile.rakuten.co.jp/internet/?l-id=burger_internet#diagnose"
+      },
+      {
+        "text": "スマホ+Rakuten Turbo20,000ポイント還元",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/campaign/six-month-free/?l-id=burger_internet_turbo_campaign_set"
+      },
+      {
+        "text": "スマホ+楽天ひかり初めて申し込みなら、ひかりの月額基本料6カ月0円",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/campaign/six-month-free/?l-id=burger_hikari_campaign_six-month-free_set"
+      },
+      {
+        "text": "製品トップ",
+        "url": "https://network.mobile.rakuten.co.jp/product/?l-id=burger_product"
+      },
+      {
+        "text": "iPhone",
+        "url": "https://network.mobile.rakuten.co.jp/product/iphone/?l-id=burger_product_iphone"
+      },
+      {
+        "text": "Apple Watch",
+        "url": "https://network.mobile.rakuten.co.jp/product/apple-watch/?l-id=burger_product_apple-watch"
+      },
+      {
+        "text": "Android/Rakutenオリジナル",
+        "url": "https://network.mobile.rakuten.co.jp/product/smartphone/?l-id=burger_product_smartphone"
+      },
+      {
+        "text": "Wi-Fiルーター",
+        "url": "https://network.mobile.rakuten.co.jp/product/internet/?l-id=burger_product_internet"
+      },
+      {
+        "text": "アクセサリ",
+        "url": "https://network.mobile.rakuten.co.jp/product/accessory/?l-id=burger_product_accessory"
+      },
+      {
+        "text": "Rakuten最強プランシンプルで使いやすいワンプラン",
+        "url": "https://network.mobile.rakuten.co.jp/fee/saikyo-plan/?l-id=burger_fee_saikyo-plan"
+      },
+      {
+        "text": "Rakuten最強プラン データタイプデータ通信のみ必要な方に",
+        "url": "https://network.mobile.rakuten.co.jp/fee/saikyo-plan/data-type/?l-id=burger_fee_saikyo-plan_data-type"
+      },
+      {
+        "text": "最強家族プログラム家族でトクしたい方に",
+        "url": "https://network.mobile.rakuten.co.jp/fee/family/?l-id=burger_fee_family"
+      },
+      {
+        "text": "最強シニアプログラム65歳以上からずーっと安心＆おトク",
+        "url": "https://network.mobile.rakuten.co.jp/fee/senior/?l-id=burger_fee_senior"
+      },
+      {
+        "text": "最強青春プログラム22歳までずーっとおトク",
+        "url": "https://network.mobile.rakuten.co.jp/fee/youth/?l-id=burger_fee_youth"
+      },
+      {
+        "text": "最強こどもプログラム12歳までとーってもおトク",
+        "url": "https://network.mobile.rakuten.co.jp/fee/kids/?l-id=burger_fee_kids"
+      },
+      {
+        "text": "SIM",
+        "url": "https://network.mobile.rakuten.co.jp/product/sim/?l-id=burger_product_sim"
+      },
+      {
+        "text": "eSIM",
+        "url": "https://network.mobile.rakuten.co.jp/product/sim/esim/?l-id=burger_product_sim_esim"
+      },
+      {
+        "text": "デュアルSIM",
+        "url": "https://network.mobile.rakuten.co.jp/product/sim/dual-sim/?l-id=burger_product_sim_dual-sim"
+      },
+      {
+        "text": "ご利用製品の対応確認",
+        "url": "https://network.mobile.rakuten.co.jp/product/byod/?l-id=burger_product_byod"
+      },
+      {
+        "text": "トップ",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/?l-id=burger_internet_turbo"
+      },
+      {
+        "text": "料金プラン",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/fee/?l-id=burger_internet_turbo_fee"
+      },
+      {
+        "text": "製品",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/product/?l-id=burger_internet_turbo_product"
+      },
+      {
+        "text": "トップ",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/?l-id=burger_hikari"
+      },
+      {
+        "text": "料金プラン",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/fee/pricelist/?l-id=burger_hikari_fee"
+      },
+      {
+        "text": "スマートフォン",
+        "url": "https://network.mobile.rakuten.co.jp/area/?l-id=burger_area"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/area/?l-id=burger_internet_turbo_area"
+      },
+      {
+        "text": "スマートフォン",
+        "url": "https://network.mobile.rakuten.co.jp/campaign/?l-id=burger_campaign"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/campaign/six-month-free/?l-id=burger_internet_turbo_campaign"
+      },
+      {
+        "text": "楽天ひかり",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/campaign/six-month-free/?l-id=burger_hikari_campaign_six-month-free"
+      },
+      {
+        "text": "お申し込みガイド",
+        "url": "https://network.mobile.rakuten.co.jp/guide/procedure/?l-id=burger_guide_procedure"
+      },
+      {
+        "text": "なぜ今楽天モバイルなのか",
+        "url": "https://network.mobile.rakuten.co.jp/feature/why-rakuten-mobile/?l-id=burger_feature_why-rakuten-mobile"
+      },
+      {
+        "text": "お客様の声",
+        "url": "https://network.mobile.rakuten.co.jp/uservoice/?l-id=burger_uservoice"
+      },
+      {
+        "text": "楽天モバイル",
+        "url": "https://network.mobile.rakuten.co.jp/support/?l-id=burger_support"
+      },
+      {
+        "text": "Rakuten Turbo",
+        "url": "https://network.mobile.rakuten.co.jp/internet/turbo/support/?l-id=burger_internet_turbo_support"
+      },
+      {
+        "text": "楽天ひかり",
+        "url": "https://network.mobile.rakuten.co.jp/hikari/support/?l-id=burger_hikari_support"
+      },
+      {
+        "text": "トップ",
+        "url": "https://network.mobile.rakuten.co.jp/"
+      },
+      {
+        "text": "お客様サポート",
+        "url": "https://network.mobile.rakuten.co.jp/support/"
+      },
+      {
+        "text": "請求金額の確認",
+        "url": "https://network.mobile.rakuten.co.jp/support/payment/bill/"
+      },
+      {
+        "text": "会社概要",
+        "url": "https://corp.mobile.rakuten.co.jp/"
+      },
+      {
+        "text": "法人のお客様",
+        "url": "https://business.mobile.rakuten.co.jp/?scid=wi_rmb_pers_footer"
+      },
+      {
+        "text": "法人パートナープログラム",
+        "url": "https://business.mobile.rakuten.co.jp/partner/?scid=wi_rmb_pers_footer"
+      },
+      {
+        "text": "個人情報の取扱いについて",
+        "url": "https://corp.mobile.rakuten.co.jp/guide/privacy/"
+      },
+      {
+        "text": "情報セキュリティポリシー",
+        "url": "https://corp.mobile.rakuten.co.jp/guide/security/"
+      },
+      {
+        "text": "商標・登録商標について",
+        "url": "https://corp.mobile.rakuten.co.jp/guide/trademark/"
+      },
+      {
+        "text": "古物営業法に基づく表示",
+        "url": "https://network.mobile.rakuten.co.jp/secondhand-dealer/"
+      },
+      {
+        "text": "利用規約",
+        "url": "https://network.mobile.rakuten.co.jp/terms/"
+      },
+      {
+        "text": "外部送信される情報の取り扱いについて",
+        "url": "https://network.mobile.rakuten.co.jp/optout/"
+      },
+      {
+        "text": "サービス一覧",
+        "url": "https://www.rakuten.co.jp/sitemap/"
+      },
+      {
+        "text": "お問い合わせ一覧",
+        "url": "https://www.rakuten.co.jp/sitemap/inquiry.html"
+      },
+      {
+        "text": "サステナビリティ",
+        "url": "https://corp.rakuten.co.jp/sustainability/"
+      },
+      {
+        "text": "キャンペーン詳細を確認する",
+        "url": "https://network.mobile.rakuten.co.jp/campaign/support-survey/?l-id=faq-review_positive_campaign_support-survey"
+      },
+      {
+        "text": "アンケートに回答する",
+        "url": "https://network.mobile.rakuten.co.jp/campaign/support-survey/form/?l-id=faq-Review_Btn-positive"
+      },
+      {
+        "text": "キャンペーン詳細を確認する",
+        "url": "https://network.mobile.rakuten.co.jp/campaign/support-survey/?l-id=faq-review_negative_campaign_support-survey"
+      },
+      {
+        "text": "アンケートに回答する",
+        "url": "https://network.mobile.rakuten.co.jp/campaign/support-survey/form/?l-id=faq-Review_Btn-negative"
+      },
+      {
+        "text": "Rakuten Linkお問い合わせ専用 フォームに入力する",
+        "url": "https://r10.to/hPDUZj"
+      },
+      {
+        "text": "電波改善・調査専用フォームに 入力する",
+        "url": "https://network.mobile.rakuten.co.jp/inquiry/input.html?l-id=?l-id=support-inquiry_inquiry_input"
+      },
+      {
+        "text": "営業時間外や窓口がつながりにくい場合はこちらをご活用ください",
+        "url": "https://network.mobile.rakuten.co.jp/support/faq/?l-id=guide_inquiry_chat_support_faq"
+      },
+      {
+        "text": "チャット相談を利用する",
+        "url": "https://onboarding.mobile.rakuten.co.jp/technical-operation?action=supportChat"
+      },
+      {
+        "text": "my楽天モバイルとは",
+        "url": "https://network.mobile.rakuten.co.jp/guide/my-rakuten-mobile/"
+      },
+      {
+        "text": "Webで「my 楽天モバイル」を使う",
+        "url": "https://portal.mobile.rakuten.co.jp/my-rakuten-mobile"
+      },
+      {
+        "text": "【重要】お問い合わせ窓口営業時間変更のお知らせ（2月1日～）",
+        "url": "https://network.mobile.rakuten.co.jp/information/news/other/2233/?l-id=guide_inquiry_tel_information_news_other_2233"
+      },
+      {
+        "text": "営業時間外や窓口がつながりにくい場合はこちらをご活用ください",
+        "url": "https://network.mobile.rakuten.co.jp/support/faq/?l-id=guide_inquiry_tel_support_faq"
+      }
+    ]
+  }
+]
