@@ -1,19 +1,19 @@
-from typing import Any, Dict, List, Optional
 import random
+from typing import Any, Dict, List, Optional
+
 from openai import OpenAI
 
 from .embeddings import EmbeddingDatabase
-from .utils.logger import setup_logger
-from .utils.exceptions import ChatbotError
 from .settings import settings
-
+from .utils.exceptions import ChatbotError
+from .utils.logger import setup_logger
 
 logger = setup_logger("faq_bot", "faq_bot.log")
 
 
 class ConversationTemplates:
     """Manages conversation templates for different intents."""
-    
+
     def __init__(self):
         self.templates = {
             "greeting": [
@@ -41,10 +41,16 @@ class ConversationTemplates:
 
 class IntentClassifier:
     """Classifies user queries into different intents."""
-    
+
     def __init__(self):
         self.conversation_intents = {
-            "greeting": ["こんにちは", "おはよう", "こんばんは", "はじめまして", "よろしく"],
+            "greeting": [
+                "こんにちは",
+                "おはよう",
+                "こんばんは",
+                "はじめまして",
+                "よろしく",
+            ],
             "farewell": ["さようなら", "ありがとう", "お疲れ様", "また"],
             "small_talk": ["天気", "調子", "元気", "どう"],
             "off_topic": ["映画", "音楽", "食事", "スポーツ"],
@@ -64,7 +70,7 @@ class IntentClassifier:
 
 class FAQBot:
     """Main FAQ bot class handling user queries and responses."""
-    
+
     def __init__(self, llm_client: OpenAI):
         """Initialize FAQ bot with necessary components."""
         try:
@@ -85,10 +91,10 @@ class FAQBot:
             self._update_conversation_history("user", user_query)
 
             intent_info = self.intent_classifier.classify(user_query)
-            
+
             if not intent_info["requires_search"]:
                 return self._handle_conversational_query(intent_info["intent"])
-            
+
             return await self._handle_business_query(user_query)
 
         except Exception as e:
@@ -99,15 +105,14 @@ class FAQBot:
         """Handle business-related queries using knowledge base."""
         try:
             relevant_info = self.embedding_db.find_most_similar(
-                query, 
-                top_k=settings.TOP_K_RESULTS
+                query, top_k=settings.TOP_K_RESULTS
             )
             prompt = self._prepare_prompt(query, relevant_info)
             llm_response = await self._get_llm_response(prompt)
-            
+
             formatted_response = self._format_response(llm_response, relevant_info)
             self._update_conversation_history("assistant", formatted_response)
-            
+
             return formatted_response
 
         except Exception as e:
@@ -165,7 +170,9 @@ class FAQBot:
         4. Maintains a professional tone
         """
 
-    def _format_response(self, response: str, relevant_info: List[Dict[str, Any]]) -> str:
+    def _format_response(
+        self, response: str, relevant_info: List[Dict[str, Any]]
+    ) -> str:
         """Format the final response with references."""
         formatted = f"{response}\n\n"
         if relevant_info:

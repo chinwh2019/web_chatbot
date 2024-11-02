@@ -17,7 +17,7 @@
 #         self.content_processor = GPTContentProcessor(api_key)
 #         self.embedding_db = EmbeddingDatabase()
 #         self.chatbot: Optional[EnhancedRakutenMobileFAQBot] = None
-        
+
 #         # Create necessary directories
 #         Path("data").mkdir(exist_ok=True)
 #         Path("processed_data").mkdir(exist_ok=True)
@@ -76,14 +76,14 @@
 # async def main():
 #     # Initialize workflow manager
 #     workflow = WorkflowManager()
-    
+
 #     # Get URL from user
 #     url = input("Enter the URL to scrape: ")
-    
+
 #     # Initialize the system
 #     print("\nInitializing system...")
 #     await workflow.initialize_from_url(url)
-    
+
 #     # Start chat loop
 #     await workflow.chat_loop()
 
@@ -91,17 +91,18 @@
 #     asyncio.run(main())
 
 from openai import OpenAI
+
 from src.chatbot import FAQBot
-from src.utils.logger import logger
-from src.utils.exceptions import ChatbotError
 from src.settings import settings
+from src.utils.exceptions import ChatbotError
+from src.utils.logger import logger
 
 
 async def main():
     try:
         client = OpenAI(api_key=settings.OPENAI_API_KEY)
         bot = FAQBot(llm_client=client)
-        
+
         # Example usage
         queries = [
             "こんにちは",
@@ -118,12 +119,14 @@ async def main():
         for query in queries:
             response = await bot.process_query(query)
             print(response)
-        
+
     except ChatbotError as e:
         logger.error(f"Bot error: {str(e)}")
     except Exception as e:
         logger.error(f"Unexpected error: {str(e)}")
 
+
 if __name__ == "__main__":
     import asyncio
+
     asyncio.run(main())

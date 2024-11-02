@@ -1,8 +1,9 @@
-from pathlib import Path
-from typing import Dict, Any
-from pydantic_settings import BaseSettings
-from pydantic import validator
 import logging
+from pathlib import Path
+from typing import Any, Dict
+
+from pydantic import validator
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
@@ -47,7 +48,7 @@ class Settings(BaseSettings):
     DB_NAME: str = "myapp_db"
     DB_HOST: str = "localhost"
     DB_PORT: int = 5432
-    
+
     @property
     def DATABASE_URL(self) -> str:
         return f"postgresql+psycopg2://{self.DB_USER}:{self.DB_PASSWORD}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}"

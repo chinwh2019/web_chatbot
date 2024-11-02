@@ -1,24 +1,18 @@
+import hashlib
 import json
 import logging  # Add this import
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
-from concurrent.futures import ThreadPoolExecutor
-import hashlib
 
 from openai import OpenAI
-from tenacity import (
-    retry,
-    stop_after_attempt,
-    wait_exponential,
-    retry_if_exception_type,
-    before_log,
-    after_log,
-)
+from tenacity import (after_log, before_log, retry, retry_if_exception_type,
+                      stop_after_attempt, wait_exponential)
 
 from settings import settings
-from utils.logger import logger
 from utils.exceptions import WebScraperError
+from utils.logger import logger
 
 
 class ContentValidator:
