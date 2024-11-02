@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from typing import Optional
 
-from settings import settings
+from ..settings import settings
 
 
 class CustomFormatter(logging.Formatter):

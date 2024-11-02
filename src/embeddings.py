@@ -8,9 +8,9 @@ from sqlalchemy import text
 from tqdm import tqdm
 import numpy as np
 
-from utils.exceptions import EmbeddingError
-from settings import settings
-from models import Base, Document
+from .utils.exceptions import EmbeddingError
+from .settings import settings
+from .models import Base, Document
 
 logger = logging.getLogger(__name__)
 
