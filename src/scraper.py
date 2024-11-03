@@ -5,9 +5,9 @@ from urllib.parse import urlparse
 import requests
 from html2text import HTML2Text
 
-from settings import settings
-from utils.exceptions import WebScraperError
-from utils.logger import logger
+from .settings import settings
+from .utils.exceptions import WebScraperError
+from .utils.logger import logger
 
 
 class WebScraper:

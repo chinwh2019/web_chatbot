@@ -10,9 +10,9 @@ from openai import OpenAI
 from tenacity import (after_log, before_log, retry, retry_if_exception_type,
                       stop_after_attempt, wait_exponential)
 
-from settings import settings
-from utils.exceptions import WebScraperError
-from utils.logger import logger
+from .settings import settings
+from .utils.exceptions import WebScraperError
+from .utils.logger import logger
 
 
 class ContentValidator:
