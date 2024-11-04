@@ -95,32 +95,3 @@ class WebScraper:
         except Exception as e:
             logger.error(f"Unexpected error during scrape operation: {str(e)}")
             raise WebScraperError(f"Scrape operation failed: {str(e)}")
-
-
-def main():
-    # Initialize the scraper with custom output directory (optional)
-    scraper = WebScraper(output_dir=settings.SCRAPED_DATA_DIR)
-
-    # List of URLs to scrape
-    urls = [
-        # "https://network.mobile.rakuten.co.jp/support/",
-        "https://network.mobile.rakuten.co.jp/support/payment/bill/?l-id=support_top_member_category"
-    ]
-
-    # Scrape each URL
-    for url in urls:
-        try:
-            url = "https://r.jina.ai/" + url
-            # scrape_and_save returns a dictionary with paths to saved files
-            result = scraper.scrape_and_save(url)
-
-            print(f"Successfully scraped {url}")
-            print(f"Markdown file saved at: {result}")
-            print("-" * 50)
-
-        except Exception as e:
-            print(f"Failed to scrape {url}: {str(e)}")
-
-
-if __name__ == "__main__":
-    main()

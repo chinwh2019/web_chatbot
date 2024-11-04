@@ -217,38 +217,3 @@ class GPTContentProcessor:
                     logger.error(f"Error processing file {file_path}: {str(e)}")
 
         return processed_files
-
-
-def main():
-    """Main entry point for the script"""
-    try:
-        api_key = settings.OPENAI_API_KEY
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment variables")
-
-        processor = GPTContentProcessor(api_key=api_key)
-
-        # Process all markdown files in the data directory
-        markdown_files = list(settings.SCRAPED_DATA_DIR.glob("*.md"))
-
-        if not markdown_files:
-            logger.warning("No markdown files found in the data directory")
-            return
-
-        processed_data = processor.batch_process_files(markdown_files)
-
-        # Save combined results with unique filename
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        combined_output = (
-            settings.PROCESSED_DATA_DIR / f"combined_data_{timestamp}.json"
-        )
-        FileHandler.save_json_data(combined_output, processed_data)
-        logger.info(f"Processing complete. Combined results saved to {combined_output}")
-
-    except Exception as e:
-        logger.error(f"Application error: {str(e)}")
-        raise
-
-
-if __name__ == "__main__":
-    main()
