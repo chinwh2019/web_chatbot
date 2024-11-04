@@ -9,7 +9,6 @@ The goal of this assignment was to develop a chatbot capable of assisting users 
 The thought process of the developement is documented in [dev_thoughts.md](dev_thoughts.md)
 
 
-
 ## 🌟 Features
 
 - **Web Scraping**: Automated scraping of Rakuten Mobile support pages
@@ -18,6 +17,11 @@ The thought process of the developement is documented in [dev_thoughts.md](dev_t
 - **Multilingual Support**: Primary focus on Japanese language support
 - **Conversational AI**: Context-aware responses with conversation history
 - **Docker Support**: Containerized application with PostgreSQL database
+
+
+## 📱 Demo
+
+![Demo](output.gif)
 
 ## 🔧 Technology Stack
 
