@@ -164,10 +164,10 @@ class FAQBot:
         {self._format_conversation_history()}
         
         Please provide a helpful response in Japanese that:
-        1. Directly addresses the user's question
-        2. Uses formal and polite language (です/ます調)
-        3. Only includes information in the relevant information section, if applicable else provide a general response
-        4. Maintains a professional tone
+        1. Directly addresses the user’s question.
+	    2. Uses formal and polite language (です/ます調).
+	    3. Do not mention specific companies, services, or offers unless explicitly included in the Relevant Information.
+	    4. Maintains a professional and respectful tone throughout.
         """
 
     def _format_response(
@@ -176,7 +176,7 @@ class FAQBot:
         """Format the final response with references."""
         formatted = f"{response}\n\n"
         if relevant_info:
-            formatted += "参考情報:\n"
+            formatted += "詳細については、添付されたリンクをご確認ください:\n"
             formatted += "\n".join(
                 f"• {info['text']}: {info['url']}"
                 for info in relevant_info

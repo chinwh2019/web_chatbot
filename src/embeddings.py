@@ -24,6 +24,11 @@ class EmbeddingDatabase:
         # Initialize PostgreSQL connection
         self.engine = create_engine(settings.DATABASE_URL)
 
+        # Ensure the vector extension exists
+        with self.engine.connect() as conn:
+            conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
+            conn.commit()
+
         Base.metadata.create_all(self.engine)  # Create tables if they don't exist
         Session = sessionmaker(bind=self.engine)
         self.session = Session()
