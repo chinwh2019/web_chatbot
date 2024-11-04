@@ -1,5 +1,8 @@
 # Rakuten Mobile FAQ Chatbot
 
+[![codecov](https://codecov.io/gh/chinwh2019/web_chatbot/branch/main/graph/badge.svg)](https://codecov.io/gh/chinwh2019/web_chatbot)
+
+
 A chatbot system designed to handle customer service inquiries for Rakuten Mobile, featuring web scraping, content processing, and intelligent response generation using OpenAI's GPT and embedding models.
 
 ## Assignment Task and Goal
