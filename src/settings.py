@@ -46,7 +46,7 @@ class Settings(BaseSettings):
     DB_USER: str = "myapp_user"
     DB_PASSWORD: str
     DB_NAME: str = "myapp_db"
-    DB_HOST: str = "localhost"
+    DB_HOST: str = "db"
     DB_PORT: int = 5432
 
     # Jina header url

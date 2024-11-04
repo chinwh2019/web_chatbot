@@ -24,6 +24,11 @@ class EmbeddingDatabase:
         # Initialize PostgreSQL connection
         self.engine = create_engine(settings.DATABASE_URL)
 
+        # Ensure the vector extension exists
+        with self.engine.connect() as conn:
+            conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
+            conn.commit()
+
         Base.metadata.create_all(self.engine)  # Create tables if they don't exist
         Session = sessionmaker(bind=self.engine)
         self.session = Session()
@@ -132,59 +137,3 @@ class EmbeddingDatabase:
         """Cleanup database connection."""
         if hasattr(self, "session"):
             self.session.close()
-
-
-def main():
-    try:
-        db = EmbeddingDatabase()
-
-        logger.info("Initializing database connection...")
-        db = EmbeddingDatabase()
-
-        # Load JSON data
-        logger.info("Loading JSON data...")
-        data = db.load_json_data("data/processed_data/combined.json")
-
-        # Process each entry
-        logger.info(f"Processing {len(data)} entries...")
-        for entry in tqdm(data, desc="Processing entries"):
-            try:
-                db._process_entry(entry)
-
-            except EmbeddingError as e:
-                logger.error(f"Error processing entry: {str(e)}")
-                continue  # Skip to next entry if there's an error
-
-        logger.info("Data processing completed successfully!")
-
-        # Optional: Test some searches
-        test_queries = ["楽天モバイル料金プラン", "iPhone", "お客様サポート"]
-
-        logger.info("\nTesting similarity searches...")
-        for query in test_queries:
-            logger.info(f"\nSearch query: '{query}'")
-            results = db.find_most_similar(query, top_k=3)
-
-            logger.info("Results:")
-            for i, result in enumerate(results, 1):
-                logger.info(f"{i}. Text: {result['text'][:100]}...")
-                logger.info(f"   URL: {result['url']}")
-                logger.info(f"   Similarity Score: {result['similarity']:.4f}")
-
-    except Exception as e:
-        logger.error(f"Main execution failed: {str(e)}")
-        raise
-
-    finally:
-        if "db" in locals():
-            del db  # Ensure database connection is closed
-
-
-if __name__ == "__main__":
-    # Configure logging
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
-
-    main()
