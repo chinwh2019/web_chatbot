@@ -1,5 +1,4 @@
 import json
-import logging
 from typing import Dict, List, Optional
 
 import numpy as np
@@ -11,8 +10,9 @@ from tqdm import tqdm
 from .models import Base, Document
 from .settings import settings
 from .utils.exceptions import EmbeddingError
+from .utils.logger import setup_logger
 
-logger = logging.getLogger(__name__)
+logger = setup_logger(__name__, "embeddings.log")
 
 
 class EmbeddingDatabase:

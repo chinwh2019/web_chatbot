@@ -18,7 +18,7 @@ class WorkflowManager:
         self.embedding_db = EmbeddingDatabase()
         self.chatbot: Optional[FAQBot] = None
         self._is_initialized: bool = False
-        
+
         self._validate_config()
 
     def _validate_config(self) -> None:
@@ -79,7 +79,7 @@ class WorkflowManager:
         try:
             while True:
                 user_input = input("\nYou: ").strip()
-                if user_input.lower() in ['quit', 'exit']:
+                if user_input.lower() in ["quit", "exit"]:
                     break
 
                 response = await self.chatbot.process_query(user_input)
@@ -101,37 +101,42 @@ class WorkflowManager:
 
 async def main() -> None:
     workflow: Optional[WorkflowManager] = None
-    
+
     try:
         workflow = WorkflowManager()
-        
+
         while True:
             print("\n1. Scrape new URL")
             print("2. Use existing database")
             print("3. Quit")
             choice = input("\nEnter your choice (1-3): ").strip()
-            
-            if choice == '3':
+
+            if choice == "3":
                 break
-            
+
             try:
-                if choice == '1':
+                if choice == "1":
                     url = input("\nEnter the URL to scrape: ").strip()
                     print("\nInitializing system...")
                     url_full = settings.JINA_URL + url
                     await workflow.initialize_from_url(url_full)
-                elif choice == '2':
+                elif choice == "2":
                     print("\nInitializing chatbot with existing data...")
                     await workflow.initialize_chatbot_only()
                 else:
                     print("\nInvalid choice. Please try again.")
                     continue
-                
+
                 await workflow.chat_loop()
-                
-                if input("\nWould you like to continue with another session? (y/n): ").strip().lower() != 'y':
+
+                if (
+                    input("\nWould you like to continue with another session? (y/n): ")
+                    .strip()
+                    .lower()
+                    != "y"
+                ):
                     break
-                    
+
             except (ChatbotError, WebScraperError) as e:
                 logger.error(f"Workflow error: {str(e)}")
                 print(f"\nError: {str(e)}")
